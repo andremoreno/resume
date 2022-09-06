@@ -1,0 +1,54 @@
+# Site Settings
+title: [ Resume ]
+url: 'https://resume.andremoreno.com'
+baseurl: '' #change it according to your repository name
+
+#Profile information
+name: AndRe
+tagline: "Andreas Rikardo Yohanes Simanjuntak"
+pic: profile.png
+summary: 'Honest, dynamic and also speed in learning new things are my main three words to describe myself towards my work.  The limited formal education is my disadvantage, but I believe with the drive, effort and passion I will have ability to deal with challenges. In my free time I enjoy listening music, playing games, occasionally writing code, playing around with new web technologies, and taking pictures. I don’t pretend to be a photographer, even though I find myself quite enjoying taking and processing pictures.'
+
+#sidebar links
+phone: +62.856.1575475
+website: www.andremoreno.com #do not add http://
+github: andremoreno
+twitter: 'writelonger'
+instagram: andremoreno
+#Update all the sections by editing the files inside _data folder.
+
+# uncomment the next line, if you want the education section displayed in main instead of the sidebar
+#education_in_main: True
+
+# Tracker
+#analytics: UA-83979019-1
+
+# Build settings
+encoding: "utf-8"
+
+
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-assets
+
+
+assets:
+  compress:
+    css: true
+    js: true
+
+  caching:
+    enabled: true
+    path: ".jekyll-cache/assets"
+    type: file
+  prefix: "/assets"
+  digest: true
+  sources:
+    - _assets
+
+exclude: ['Gemfile*', 'README*','LICENCE*', 'www', 'doc']
+keep_files: ['.gitkeep']
+
+compress_html:
+  clippings: all

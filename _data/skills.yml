@@ -1,0 +1,18 @@
+- skill:
+  name: PHP
+  level: 80%
+- skill:
+  name: Javascript & jQuery
+  level: 75%
+  name: HTML5 & CSS
+  level: 95%
+- skill:
+  name: Ruby on Rails
+  level: 25%
+- skill:
+  name: Linux
+  level: 60%
+- skill:
+  name: Adobe Lightroom
+  level: 80%
+

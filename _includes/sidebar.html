@@ -1,0 +1,59 @@
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+<div class="sidebar-wrapper">
+
+   <div class="profile-container">
+
+       <img class="profile-img" src="{% asset images/andre.jpg @path %}" alt="profile picture" />
+
+       {% if site.name %}
+       <h1 class="name">AndRe</h1>
+       {% endif %}
+
+       {% if site.tagline %}
+       <h3 class="tagline">{{site.tagline}}</h3>
+       {% endif %}
+
+   </div><!--//profile-container-->
+
+   <div class="contact-container container-block">
+       <ul class="list-unstyled contact-list">
+
+           <li class="envelope"><i class="fa fa-envelope"></i><a href="https://www.andremoreno.com/contact/" target="_blank">&#097;&#110;&#100;&#114;&#101;&#064;&#097;&#110;&#100;&#114;&#101;&#109;&#111;&#114;&#101;&#110;&#111;&#046;&#099;&#111;&#109;</a></li>
+           	
+
+           {% if site.phone %}
+           <li class="phone"><i class="fa fa-phone"></i>{{site.phone}}</li>
+           {% endif %}
+
+           {% if site.website %}
+           <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website}}" target="_blank">{{site.website}}</a></li>
+           {% endif %}
+
+           {% if site.github %}
+           <li class="github"><i class="fa fa-github"></i><a href="https://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
+           {% endif %}
+
+           {% if site.twitter %}
+           <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
+           {% endif %}
+
+		   {% if site.instagram %}
+           <li class="instagram"><i class="fa fa-instagram"></i><a href="https://www.instagram.com/{{site.instagram}}" target="_blank">{{site.instagram}}</a></li>
+           {% endif %}
+
+		   <li class="map-marker"><i class="fa fa-map-marker"></i>Jl. Salemba Utan Barat II<br />Jakarta 13140, Indonesia</li>
+           
+
+       </ul>
+   </div><!--//contact-container-->
+
+  {% if site.education_in_main == null or site.education_in_main == false %}
+    {% include education.html %}
+  {% endif %}
+  {% include language.html %}
+  {% include interests.html %}
+  {% if site.about %}
+    {% include about.html %}
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->

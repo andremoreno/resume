@@ -1,0 +1,12 @@
+_site
+public
+.asset-cache
+.jekyll-cache
+.jekyll-assets-cache
+tmp
+.env
+LICENCE.md
+
+# Local Netlify folder
+
+.netlify

@@ -1,0 +1,18 @@
+intro: ""
+projects:
+  - project:
+    title: TWVTR
+    link: "https://twvtr.com"
+    tagline: "Twvtr is a RESTful API that lets you specify a Twitter username and it will return the avatar. I developed this API system to make Snaptwit system easier."
+  - project:
+    title: Alkitab
+    link: "https://alkitab.andremoreno.com"
+    tagline: "A simple bible. When creating \"Ikutlah Aku\", I also want to make it easier for people to read bible verses on the page. So, I put linked those verses to external bible site. Then it occurred to me, why I did not make it myself."
+  - project:
+    title: Ikutlah Aku
+    link: "https://www.ikutlahaku.com"
+    tagline: "Renungan Harian Ikutlah Aku"
+  - project:
+    title: Temphotoworks
+    link: "https://www.temphotoworks.com"
+    tagline: "Website for Temphotoworks, a company specialized in providing photography services based in Jakarta, Indonesia."

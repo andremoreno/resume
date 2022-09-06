@@ -1,0 +1,14 @@
+[build]
+  publish = "_site"
+  command = "jekyll build"
+
+[[redirects]]
+  from = "https://cv.andremoreno.studio/*"
+  to = "https://resume.andremoreno.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://rad-sherbet-acb3fd.netlify.app/*"
+  to = "https://resume.andremoreno.com/:splat"
+  status = 301
+  force = true
