@@ -1,6 +1,10 @@
 intro: ""
 projects:
   - project:
+    title: Travy
+    link: "https://travy.id"
+    tagline: "Travy.id is One-Stop Solutions to your needs for Company Establishment, Legal Services, Visas, Work Permit, Accounting and Tax Reporting Services in Indonesia."
+  - project:
     title: TWVTR
     link: "https://twvtr.com"
     tagline: "Twvtr is a RESTful API that lets you specify a Twitter username and it will return the avatar. I developed this API system to make Snaptwit system easier."
