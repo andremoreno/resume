@@ -1,6 +1,6 @@
 # Site Settings
 title: [ Resume ]
-url: 'https://resume.andremoreno.com'
+url: 'https://resume.andremoreno.id'
 baseurl: '' #change it according to your repository name
 
 #Profile information
@@ -11,7 +11,7 @@ summary: 'Honest, dynamic and also speed in learning new things are my main thre
 
 #sidebar links
 phone: +62.856.1575475
-website: www.andremoreno.com #do not add http://
+website: www.andremoreno.id #do not add http://
 github: andremoreno
 twitter: 'writelonger'
 instagram: andremoreno
